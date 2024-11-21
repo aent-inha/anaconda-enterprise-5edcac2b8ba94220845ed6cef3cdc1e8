@@ -1,0 +1,22 @@
+name: Databases
+description: Database access utilizing SQLAlchemy, Pandas, and Dask. [Tutorial]
+categories:
+  - Python
+
+commands:
+  notebook:
+    notebook: Databases.ipynb
+
+packages:
+  - dask
+  - hvplot
+  - ipykernel
+  - pandas
+  - pyarrow>=14.0.1
+  - python
+  - sqlalchemy
+platforms:
+  - linux-64
+
+env_specs:
+  sampleproj: {}
